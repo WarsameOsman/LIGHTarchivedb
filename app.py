@@ -14,7 +14,7 @@ st.set_page_config(
 # ---------------------------
 # Database Setup
 # ---------------------------
-DB_FILE = os.path.join(os.getcwd(), "archive.db")
+DB_FILE = os.path.join(os.getcwd(), "archives.db")
 
 # Connect to SQLite
 conn = sqlite3.connect(DB_FILE, check_same_thread=False)
@@ -175,4 +175,5 @@ The Light Archive collects and showcases stories of Black youth whose potential 
 
 **Why It Matters:**  
 By sharing these narratives, isolation becomes visibility, and collective understanding grows.
+
 """)
